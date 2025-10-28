@@ -1,5 +1,5 @@
 const corsOptions = {
-    origin: "https://payroll-system-frontend-pied.vercel.app",
+    origin: ['http://localhost:5173'],
 
     methods: ["GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"],
     allowedHeaders: ["Content-Type", "Authorization", "user-role", "user-id"],
